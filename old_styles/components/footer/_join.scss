@@ -1,0 +1,22 @@
+.join {
+  margin-right: 93px;
+}
+
+.join__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.social__link--grey-bgc {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social__icon--white-color {
+  fill: $primary-white-color;
+}

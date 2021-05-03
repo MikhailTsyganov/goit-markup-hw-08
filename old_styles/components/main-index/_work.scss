@@ -1,0 +1,32 @@
+.work {
+  display: flex;
+}
+
+.work__item {
+  height: 294px;
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  margin: 0;
+
+  color: $primary-white-color;
+  background-color: $work-bgc-text;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

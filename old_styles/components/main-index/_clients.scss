@@ -1,0 +1,38 @@
+.clients {
+  display: flex;
+}
+
+.clients__item {
+  width: 170px;
+  height: 90px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.clients__link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid $icons-color;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border: 1px solid $accent;
+  }
+}
+
+.clients__icon {
+  fill: $icons-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__link:hover .clients__icon {
+  fill: $accent;
+}

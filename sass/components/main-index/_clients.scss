@@ -1,0 +1,21 @@
+.clients {
+  display: flex;
+
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
+}
+
+.clients__item {
+  width: 170px;
+  height: 90px;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: calc((100% - 60px) / 2);
+  }
+}
