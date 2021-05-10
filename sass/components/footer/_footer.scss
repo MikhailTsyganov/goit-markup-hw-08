@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $bg-hero-footer;
+}
+
+.footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.main-info {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.position {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
