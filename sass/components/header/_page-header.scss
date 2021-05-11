@@ -1,8 +1,11 @@
 .page-header {
+  position: relative;
   border-bottom: 1px solid $header-outline-color;
 }
 
 .page-header__container {
-  display: flex;
-  align-items: center;
+  @media screen and (max-width: 767px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
