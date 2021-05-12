@@ -131,7 +131,7 @@ img {
 }
 
 .main-nav {
-  width: 100%;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,7 +141,7 @@ img {
 }
 
 .menu-container {
-  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -151,7 +151,7 @@ img {
     padding: 48px 40px;
     top: 0;
     left: 0;
-    height: 796px;
+    min-height: 796px;
     z-index: 1;
     background-color: #ffffff;
   }
@@ -446,6 +446,7 @@ img {
 @media screen and (min-width: 768px) {
   .menu-social {
     display: none;
+    max-width: 100%;
   }
 }
 
@@ -1219,7 +1220,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .project-list__item {
-    width: 450px;
+    max-width: 100%;
   }
 }
 
