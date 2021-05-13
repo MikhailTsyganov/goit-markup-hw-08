@@ -1419,10 +1419,16 @@ img {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  max-width: 450px;
+  width: 450px;
   min-height: 581px;
   padding: 40px;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1586,6 +1592,12 @@ img {
   .checkbox__label {
     font-size: 12px;
     line-height: 1.17;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .checkbox__label {
+    font-size: 6px;
   }
 }
 

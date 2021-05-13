@@ -4,11 +4,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  max-width: 450px;
+  width: 450px;
 
   min-height: 581px;
   padding: 40px;
   background-color: $primary-white-color;
+
+  @media screen and (max-width: 479px) {
+    width: 300px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 528px;
@@ -135,6 +139,10 @@
   @media screen and (max-width: 1199px) {
     font-size: 12px;
     line-height: 1.17;
+  }
+
+  @media screen and (max-width: 479px) {
+    font-size: 6px;
   }
 }
 
