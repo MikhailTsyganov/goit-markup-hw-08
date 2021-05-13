@@ -31,6 +31,10 @@
     position: absolute;
     top: 562px;
     left: 40px;
+
+    @media screen and (max-height: 770px) {
+      top: 339px;
+    }
   }
 }
 
@@ -70,6 +74,10 @@
     line-height: 1.18;
 
     color: $accent;
+
+    @media screen and (max-width: 340px) {
+      font-size: 30px;
+    }
   }
 }
 
